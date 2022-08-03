@@ -27,6 +27,14 @@
 -->
 <script>
   "use strict";
+  const number = prompt("Input positive whole number");
+  let result = number/1000;
+  let res = result.toString()
+  let hundred = res.substring(2, 3);
+  let ten = res.substring(3, 4); 
+  let one = res.substring(4, 5);
+  console.log("В числе " + number + " количество сотен: " + hundred + " , десятков: " + ten + " , единиц: " + one);
+  console.log(result) 
 
   // Здесь пишем решение, данный комментарий необходимо стереть.
 </script>
